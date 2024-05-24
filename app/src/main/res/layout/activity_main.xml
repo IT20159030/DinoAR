@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:contentDescription="Logo"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+
+    <!-- Launch Button -->
+    <Button
+        android:id="@+id/launchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Launch AR Experience"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_button_background" />
+
+</RelativeLayout>
